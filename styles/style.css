@@ -1,0 +1,64 @@
+
+/* reset styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0c1b;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.card-container {
+    background-color: #1c1938;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin: 10px auto;
+}
+
+.hero-img {
+    background: #9e61c9 url(../images/image-header-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-heading {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.4;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+strong {
+    color: #9e61c9;
+}
+
+section {
+    margin: 20px;
+}
+
+section h3 {
+    font-size: 1.3em;
+}
+
+section p {
+    text-transform: uppercase;
+}
