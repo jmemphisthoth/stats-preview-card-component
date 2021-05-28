@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,18 +20,15 @@
 </head>
 <body>
   <div class="card-container">
-    <div class="hero-img"></div>
+    <div class="grid-container">
+      <div class="column-1">
+        <h1>Get <strong>insights</strong> that help your business grow.</h1>
 
-    <div class="card-heading">
-    <h1>Get <strong>insights</strong> that help your business grow.</h1>
-    </div>
-    <div class="card-text">
       <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.</p>
-    </div>
-    
-
-    <section>
+        
+        <div class="section-container">
+      <section>
       <h3>10k+</h3> 
       <p>Companies</p>
     </section>
@@ -41,14 +40,24 @@
       <h3>12M+</h3>
       <p>queries</p>
     </section>
-
     </div>
+      </div>
+    </div>
+      <div class="column-2">
+        <div class="card-img"></div>
+    </div>
+    
+    
+    </div>
+    </div>
+    </div>  
   </div>
 
-
+  <!--
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Jared Perkins</a>.
+    Coded by <a href="#">jmemphisthoth</a>.
+  -->
   </div>
 </body>
 </html>
